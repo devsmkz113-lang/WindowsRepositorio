@@ -21,7 +21,7 @@ def main(page: ft.Page):
     lbl_resultado = ft.Text("resultado...")
 
     btn_chute = ft.ElevatedButton(
-        "enviar",
+        "EPAMINONDAS",
         on_click=lambda e: adivinhar(e, lbl_chute, lbl_resultado, page)
     )
 
